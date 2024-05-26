@@ -61,8 +61,8 @@ const config = {
     // To disable Spotify:
     // spotify: false,
     spotify: {
-      clientId: process.env.SPOTIFY_CLIENT_ID,
-      clientSecret: process.env.SPOTIFY_CLIENT_SECRET
+      clientId: process.env.e16f904003684f7d8681e4ad8d2b6743,
+      clientSecret: process.env.96725652e5f746bfb9f4c27a91eae11c
     }
   },
 
@@ -74,7 +74,7 @@ const config = {
       {
         name: '/play',
         // One of Playing, Streaming, Listening, Watching
-        type: 'Listening'
+        type: 'Streaming'
       }
     ]
   },
@@ -82,14 +82,14 @@ const config = {
   // Permission config
   permissions: {
     // Bot Owner, highest permission level (5)
-    ownerId: '290182686365188096',
+    ownerId: '1123986321669632031',
 
     // Bot developers, second to highest permission level (4)
     developers: [ '' ]
   },
 
   // The Discord server invite to your Support server
-  supportServerInviteLink: 'https://discord.gg/mirasaki',
+  supportServerInviteLink: 'https://discord.gg/dvWvS8kuWV',
 
   // Additional permissions that are considered required when generating
   // the bot invite link with /invite
